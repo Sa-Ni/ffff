@@ -1,0 +1,160 @@
+
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+    
+body {
+    background: #0D192C;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+ 
+
+.card-container { 
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    background: #15263F;   
+    margin: 150px auto;
+    padding:24px;
+} 
+
+
+.main-img {
+    cursor: pointer;
+    width: 302px;
+    height:302px; 
+    margin-bottom: 16px;    
+} 
+
+.main-img  img { 
+    width: 100%;
+    border-radius: 8px;   
+}
+
+.main-img div {
+    background-color: hsla(178, 100%, 50%, 0.5);
+    top: 175px; 
+    width: 302px;
+    height: 302px;
+    position: absolute;
+    display: flex;
+    border-radius: 8px;
+    opacity: 0;
+}
+.main-img div img {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);  
+}
+
+.main-img div:hover { 
+    opacity: 1;
+    transition: all 0.5s ease; 
+}
+
+h1{
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 0;
+  color: #FFFFFF;
+  transition: color 0.5s ease;
+  margin-bottom:16px;
+  cursor:pointer;
+}
+
+h1:hover {
+  color: #00FFF8;
+  transition: color 0.5s ease;  
+}
+
+p {
+  font-weight: 300;
+  color: #8BACD9;
+  margin: 5px 0;
+}
+
+.rectangle {
+  height: 1px;
+  background-color: #2E405A;
+  margin: 24px 0;
+} 
+
+.creator {
+  display: flex;
+  align-items: center; 
+}
+
+.creator img {
+  width: 33px;
+  height: 33px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.avatar-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+  justify-content: center;
+  margin-bottom: 5px; 
+}
+.card-element {
+  display: flex;
+  justify-content: space-between;
+  margin:24px 0;
+}
+.nft-eth {
+  column-gap: 7.7px;
+  color: #00FFF8;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  align-items:center;
+  display: flex;
+}
+
+.nft-date {
+  color:#8BACD9;
+  column-gap: 7.7px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  display: flex;
+}    
+span {
+  color: white;
+  transition: color 0.5s ease;
+  }
+  
+span:hover {
+  color: #00FFF8;
+  transition: color 0.5s ease;
+  cursor: pointer;
+  }  
+     
+    
+
+
+
+
+
+
